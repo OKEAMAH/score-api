@@ -17,7 +17,7 @@
     "test:e2e": "PORT=3033 start-server-and-test 'yarn start:test' 3033 'dotenv -e test/.env.test jest --runInBand --collectCoverage=false test/e2e/'"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.18.0",
+    "@aws-sdk/client-s3": "^3.529.0",
     "@ethersproject/address": "^5.7.0",
     "@snapshot-labs/keycard": "0.5.1",
     "@snapshot-labs/snapshot-metrics": "^1.4.1",
